@@ -44,3 +44,32 @@ body {
   color: #61dafb;
 }
 
+.footer {
+  color: #555;
+  font-size: 0.95rem;
+  padding: 0;;
+  width: 100%;
+  background-color: #f0f0f0;
+  text-align: center;
+  z-index: 0;
+  box-shadow: 0 10px 5px rgba(0, 0, 0, 5);
+}
+
+.footer-links {
+  margin-top: 1rem;
+  font-size: 1.05rem;
+}
+
+/* === Links === */
+.footer-links a {
+  margin: 0 0.75rem;
+  color: #007acc;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-links a:hover {
+  text-decoration: none;
+  color: var(--accent-color);
+}
+

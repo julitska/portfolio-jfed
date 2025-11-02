@@ -1,13 +1,35 @@
-import React from 'react';
-import './Hero.css';
+import React from "react";
+import { Link } from "react-router-dom";
+import "./Hero.css";
 
 const Hero = () => {
   return (
     <section className="hero">
-       <img src="/assets/images/profile.jpg" alt="Julia Petrova" className="profile-photo" />
-      <h2>Junior Front-End Developer</h2>
-      <p>I build responsive websites with HTML, CSS, and JavaScript.</p>
-      <a href="#projects" className="cta">View My Work</a>
+      <img
+        src="/profile.jpg"
+        alt="Julia"
+        className="profile-photo"
+        loading="lazy"
+      />
+      <h1>Junior Front-End Developer</h1>
+      <p>
+        {" "}
+        A creative and detail-driven aspiring front-end developer with a passion
+        for clean design and user-friendly experiences. Currently building
+        responsive layouts using HTML, CSS, and JavaScript, while learning to
+        craft modern interfaces with React. Passionate about working with
+        creative concepts that improve user experience and reflects brand
+        values. Constantly growing through hands-on projects and real-world
+        challenges, with a focus on expanding both technical and creative skills
+        — and sharpening problem-solving abilities — with each new challenge.
+      </p>
+      <a
+        href="https://github.com/julitska"
+        className="cta"
+        target="_blank"
+        rel="noopener noreferrer">
+        View My Study Work
+      </a>
     </section>
   );
 };

@@ -1,10 +1,11 @@
+/* === Layout === */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
   background-color: #ffffff;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   position: sticky;
   top: 0;
   z-index: 100;
@@ -12,22 +13,80 @@
 
 .logo {
   font-size: 1.5rem;
+  font-weight: bold;
   color: #007acc;
+  transition: color 0.3s ease;
+  text-decoration: none;
 }
 
-.nav-links {
-  list-style: none;
+.logo:hover {
+  color: var(--accent-color);
+}
+
+/* === Navigation Links === */
+.navbar-links {
   display: flex;
-  gap: 1.5rem;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.nav-links a {
+.navbar-links a {
   text-decoration: none;
   color: #333;
-  font-weight: 500;
+  font-weight: 700;
+  font-size: 1.3rem;
+  position: relative;
   transition: color 0.3s ease;
 }
 
-.nav-links a:hover {
-  color: #007acc;
+.nav-link.active {
+  color: var(--primary-color);
+  pointer-events: none;
+  cursor: default;
+}
+
+/* === Hover Effects === */
+.navbar-links a:hover {
+  color: var(--accent-color);
+}
+
+/* === Burger Menu (Hidden by Default) === */
+.burger {
+  display: none;
+}
+
+/* === Mobile Styles === */
+@media (max-width: 599px) {
+  .burger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+  }
+
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    border-radius: 2px;
+  }
+
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 1rem 0;
+    gap: 1rem;
+  }
+
+  .navbar-links.open {
+    display: flex;
+  }
 }

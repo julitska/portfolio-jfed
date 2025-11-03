@@ -11,11 +11,16 @@ const Contact = () => {
             alt="Projects Banner"
             className="hero-image"
           />
-          <h4 className="hero-text">
-            “A day without learning is a day wasted.”
-            <br /> — Albert Einstein
-          </h4>
+          <div className="grid-container">
+            <div className="content-wrap">
+              <h4 className="hero-text">
+                “A day without learning is a day wasted.”
+                <br /> — Albert Einstein
+              </h4>
+            </div>
+          </div>
         </div>
+
         <div>
           <h2>Curious &amp; Capable</h2>
           <p>

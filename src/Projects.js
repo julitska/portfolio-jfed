@@ -1,5 +1,4 @@
 import React from "react";
-import ProjectCard from "./ProjectCard";
 import "./Projects.css";
 
 const projects = [
@@ -43,7 +42,7 @@ function Projects() {
             className="project-card">
             <img
               src={project.image}
-              alt={project.name}
+              alt={project.title}
             />
             <h3>{project.title}</h3>
             <p>{project.description}</p>

@@ -13,20 +13,20 @@ const projects = [
   {
     title: "Responsive Portfolio",
     description: "A personal portfolio built with React and styled-components.",
-    image: "/images/portfolio-preview.png",
-    link: "#",
+    image: "/images/image-page.png",
+    link: "https://github.com/julitska/image-page",
   },
   {
     title: "Weather App",
     description: "A simple weather app using OpenWeather API and React hooks.",
-    image: "/images/weather-app-preview.png",
-    link: "#",
+    image: "/images/scroll-pages.png",
+    link: "https://github.com/julitska/scroll-pages",
   },
   {
     title: "Weather App",
     description: "A simple weather app using OpenWeather API and React hooks.",
-    image: "/images/weather-app-preview.png",
-    link: "#",
+    image: "/images/music-site.png",
+    link: "https://github.com/julitska/MyMusic-site",
   },
 ];
 

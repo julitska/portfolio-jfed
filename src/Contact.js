@@ -7,7 +7,7 @@ const Contact = () => {
       <section className="contact-hero">
         <div className="hero-image-wrapper">
           <img
-            src="/images/projects-hero.png"
+            src={`${process.env.PUBLIC_URL}/images/projects-hero.png`}
             alt="Projects Banner"
             className="hero-image"
           />

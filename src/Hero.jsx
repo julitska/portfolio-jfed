@@ -6,8 +6,8 @@ const Hero = () => {
   return (
     <section className="hero">
       <img
-        src="/profile.jpg"
-        alt="Julia"
+        src={`${process.env.PUBLIC_URL}/images/profile.jpg`}
+        alt="Portrait of a woman on a bright background"
         className="profile-photo"
         loading="lazy"
       />

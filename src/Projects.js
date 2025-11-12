@@ -4,27 +4,26 @@ import "./Projects.css";
 const projects = [
   {
     title: "Sand Spa Study Webpage",
-    description:
-      "A Spa-themed landing page built with HTML and CSS. Includes a blurred background effect.",
-    image: "/images/sand-spa-preview.png",
+    description: "A Spa-themed landing page built with HTML and CSS. Includes a blurred background effect.",
+    image: `${process.env.PUBLIC_URL}/images/sand-spa-preview.png`,
     link: "https://github.com/julitska/Spa_Study_Project",
   },
   {
     title: "Image Gallery",
     description: "A single-page gallery featuring nine clickable images with responsive design. Built with React.",
-    image: "/images/image-page.png",
+    image: `${process.env.PUBLIC_URL}/images/image-page.png`,
     link: "https://github.com/julitska/image-page",
   },
   {
     title: "Scroll Page Demo",
     description: "A single-page layout built with HTML, custom CSS, and JavaScript. Shows interactive scrolling.",
-    image: "/images/scroll-pages.png",
+    image: `${process.env.PUBLIC_URL}/images/scroll-pages.png`,
     link: "https://github.com/julitska/scroll-pages",
   },
   {
     title: "Music Landing Page",
     description: "A responsive and interactive, single-page site built with HTML, custom CSS, and JavaScript.",
-    image: "/images/music-site.png",
+    image: `${process.env.PUBLIC_URL}/images/music-site.png`,
     link: "https://github.com/julitska/MyMusic-site",
   },
 ];

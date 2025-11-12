@@ -12,7 +12,7 @@ const projects = [
     title: "Image Gallery",
     description: "A single-page gallery featuring nine clickable images with responsive design. Built with React.",
     image: `${process.env.PUBLIC_URL}/images/image-page.png`,
-    link: "https://github.com/julitska/image-page",
+    link: "https://julitska.github.io/image-page/",
   },
   {
     title: "Scroll Page Demo",

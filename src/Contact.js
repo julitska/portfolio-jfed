@@ -43,7 +43,7 @@ const Contact = () => {
             <i className="fab fa-github"></i>
           </a>
           <a
-            href="mailto:jpr.int@hotmail.com"
+            href="mailto:#"
             target="_blank"
             rel="noopener noreferrer">
             <i className="fas fa-envelope"></i>

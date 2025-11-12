@@ -11,7 +11,6 @@ const Footer = () => {
           rel="noopener noreferrer">
           GitHub
         </a>
-        <a href="mailto:jpr.int@hotmail.com">Email</a>
         <a
           href="https://www.linkedin.com/in/julia-p-04517b17b/"
           target="_blank"

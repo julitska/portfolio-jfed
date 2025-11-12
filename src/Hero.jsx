@@ -28,7 +28,7 @@ const Hero = () => {
         className="cta"
         target="_blank"
         rel="noopener noreferrer">
-        View My Study Work
+        All My Work on GitHub
       </a>
     </section>
   );

@@ -6,7 +6,7 @@ const projects = [
     title: "Sand Spa Study Webpage",
     description: "A Spa-themed landing page built with HTML and CSS. Includes a blurred background effect.",
     image: `${process.env.PUBLIC_URL}/images/sand-spa-preview.png`,
-    link: "https://github.com/julitska/Spa_Study_Project",
+    link: "https://julitska.github.io/Spa_Study_Project/",
   },
   {
     title: "Image Gallery",

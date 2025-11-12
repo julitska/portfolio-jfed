@@ -3,7 +3,7 @@ import "./Projects.css";
 
 const projects = [
   {
-    title: "Sand Spa Study Website",
+    title: "Sand Spa Study Webpage",
     description:
       "A Spa-themed landing page built with HTML and CSS. Includes a blurred background effect.",
     image: "/images/sand-spa-preview.png",

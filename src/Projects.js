@@ -18,13 +18,13 @@ const projects = [
     title: "Scroll Page Demo",
     description: "A single-page layout built with HTML, custom CSS, and JavaScript. Shows interactive scrolling.",
     image: `${process.env.PUBLIC_URL}/images/scroll-pages.png`,
-    link: "https://github.com/julitska/scroll-pages",
+    link: "https://julitska.github.io/scroll-pages/",
   },
   {
     title: "Music Landing Page",
     description: "A responsive and interactive, single-page site built with HTML, custom CSS, and JavaScript.",
     image: `${process.env.PUBLIC_URL}/images/music-site.png`,
-    link: "https://github.com/julitska/MyMusic-site",
+    link: "https://julitska.github.io/MyMusic-site/",
   },
 ];
 

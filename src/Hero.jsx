@@ -14,7 +14,7 @@ const Hero = () => {
       <h1>Creative Developer</h1>
       <p>
         {" "}
-        A creative and detail-driven aspiring front-end developer with a passion
+        A creative and detail-driven developer with a passion
         for clean design and user-friendly experiences. Currently building
         responsive layouts using HTML, CSS, and JavaScript, while learning to
         craft modern interfaces with React. Passionate about working with

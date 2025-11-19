@@ -15,7 +15,7 @@ const Contact = () => {
             <div className="content-wrap">
               <h4 className="hero-text">
                 “A day without learning is a day wasted.”
-                <br /> — Albert Einstein
+                <br/> — Albert Einstein
               </h4>
             </div>
           </div>
@@ -24,11 +24,12 @@ const Contact = () => {
         <div>
           <h2>Curious &amp; Capable</h2>
           <p>
-            I'm currently exploring long-term roles within front-end development
-            opportunities but would consider freelance collaborations or other
-            suitable roles based on my skills.
-            <br />
-            Thank you for taking the time to look through my work. <br />I would
+            I'm currently exploring long-term opportunities in web development, 
+            digital design, and creative-tech roles, 
+            but I'm also open to freelance collaborations 
+            or hybrid positions that align with my skills.
+            <br/>
+            Thank you for taking the time to look through my work. <br/>I would
             love to hear from you, please get in touch!
           </p>
         </div>

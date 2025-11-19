@@ -11,7 +11,7 @@ const Hero = () => {
         className="profile-photo"
         loading="lazy"
       />
-      <h1>Junior Front-End Developer</h1>
+      <h1>Creative Developer</h1>
       <p>
         {" "}
         A creative and detail-driven aspiring front-end developer with a passion
